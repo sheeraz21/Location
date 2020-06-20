@@ -1,0 +1,41 @@
+<div class="container">
+<div class="row">
+
+  
+<form [formGroup]="form" #QuestionInformation (ngSubmit)="QuestionForm(QuestionInformation)">  
+  
+  <div class="row"> 
+    <div class=" col-md-12">  
+        <label for="countryCode">Country Code</label>  
+        <input formControlName="countryCode" class="form-control" type="text">   
+    </div>  
+  </div> 
+  
+  <div class="row">  
+    <div class=" col-md-12">  
+        <label for="stateCode">State Code </label>  
+        <input formControlName="stateCode" class="form-control" type="text">   
+    </div>  
+  </div>  
+  
+  <div class="row">  
+    <div class=" col-md-12">  
+        <label for="cityCode">City Code</label>  
+        <input formControlName="cityCode" class="form-control" type="text">   
+    </div>  
+  </div>  
+  
+  
+  
+
+  
+  <div class="row" style="margin-top: 40px;">  
+    <div class="col-md-offset-1 col-md-4">  
+        <button class="btn btn-md btn-primary btn-style"  >Submit</button>  
+    </div>  
+  </div>  
+  
+</form> 
+</div>
+
+</div>
